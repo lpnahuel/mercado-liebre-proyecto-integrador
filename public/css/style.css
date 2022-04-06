@@ -1,0 +1,157 @@
+body{    
+    font-family: 'Roboto';    
+}
+
+header{
+    background-color: #EAC926;
+    margin-bottom: 0px;
+}
+
+.liebre-logo{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.search-form{
+    margin-left: 50px;
+}
+
+.link-header:link{
+    text-decoration: none;    
+}
+.link-header:visited{
+    text-decoration: none;    
+}
+.link-header:hover{
+    text-decoration: underline;    
+}
+
+main{
+    background-color: #ebebeb;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+article{
+    background-color:  white;
+}
+
+p {    
+    text-align: center;
+    font-size: 12px;
+}
+
+p.precios{
+    font-size: 18px;
+}
+
+h2.titulares{
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+p.descuentos{
+    font-size: 16px;
+}
+
+p.descripciones{
+    font-size: 16px;
+}
+
+.burger-menu{
+    text-align: center;
+    font-size: medium;
+}
+
+.burger-menu > i{
+    border-radius: 10%;
+    background-color: #1259c3;
+    color:white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;        
+}
+
+.productos{    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul.lista-header{
+    list-style: none;
+    padding: 0px;
+
+}
+
+ul a{
+    color: black;
+}
+
+.header-banner{
+    width: 100%;
+}
+
+.fa-solid.fa-credit-card{
+    display: block;
+    color: #1259c3;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.fa-solid.fa-gift{
+    display: block;
+    color: #1259c3;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;  
+    margin-top: 50px;  
+    text-align: center;
+}
+
+.fa-solid.fa-user-shield{
+    display: block;
+    color: #1259c3;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;    
+}
+
+h4.titulo-footer{
+    color: #666;
+    text-align: center;
+    margin-bottom:  0px;
+}
+
+p.texto-copyright{
+    color:#666;
+    font-size: 12px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+p.texto-footer{
+    color: #666;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+footer{
+    border:solid #ebebeb;
+    border-width: 5px;
+}
