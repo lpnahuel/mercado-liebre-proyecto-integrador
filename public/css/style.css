@@ -4,17 +4,18 @@ body{
 
 header{
     background-color: #EAC926;
-    margin-bottom: 0px;
+    margin: auto;
+    width: 100%;
 }
 
 .liebre-logo{
-    margin-left: 50px;
+    margin-left: 30px;
     margin-bottom: 10px;
     width: 50%;
 }
 
 .search-form{
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .link-header:link{
@@ -29,6 +30,8 @@ header{
 
 main{
     background-color: #ebebeb;
+    box-sizing: border-box;
+    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 40px;
@@ -152,8 +155,8 @@ p.texto-footer{
     color: #666;
     font-size: 12px;
     margin-top: 0px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: center;
 }
 
@@ -177,10 +180,11 @@ div.detalleproducto{
 .fa-solid.fa-truck{
     border: solid 1px green;
     border-radius: 50%;
-    font-size: 4em;    
+    font-size: 1em;    
     color: green;
-    margin-left: 20px;
-    padding: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -188,9 +192,22 @@ div.detalleproducto{
     article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    .burger-menu{
+        display: none;
+    }
 
 }
 
 @media (min-width: 769px){
     
 }
+
+@media (max-width: 360px){
+    .descripciones{
+        display: none;
+    }
+    .lista-header{
+        display: none;
+    }
+}
+
