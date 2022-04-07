@@ -29,13 +29,16 @@ header{
 
 main{
     background-color: #ebebeb;
+    padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 40px;
     padding-right: 40px;
+    padding-left: 40px;
+    width: 90%;
 }
 
 article{
     background-color:  white;
+    margin: 10px;
 }
 
 p {    
@@ -48,16 +51,19 @@ p.precios{
 }
 
 h2.titulares{
-    margin-top: 10px;
+    background-color: #ebebeb;    
     font-size: 24px;
-    text-align: center;
+    color:#666;
+    text-align: left;
 }
 p.descuentos{
     font-size: 16px;
+    color: green;
 }
 
 p.descripciones{
     font-size: 16px;
+    color: #666;
 }
 
 .burger-menu{
@@ -154,4 +160,37 @@ p.texto-footer{
 footer{
     border:solid #ebebeb;
     border-width: 5px;
+    width: 100%;
+}
+
+div.detalleproducto{
+    border-top: solid 1px #ebebeb;
+}
+
+.precios,
+.descuentos,
+.descripciones{
+    padding: 0px 15px 0px 15px;
+    text-align: left;
+}
+
+.fa-solid.fa-truck{
+    border: solid 1px green;
+    border-radius: 50%;
+    font-size: 4em;    
+    color: green;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+@media (min-width: 361px){
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+}
+
+@media (min-width: 769px){
+    
 }
