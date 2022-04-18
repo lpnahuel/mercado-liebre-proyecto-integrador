@@ -315,7 +315,8 @@ main section article i{
 
 .register-section-form{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    margin-top: 20px;  
 }
 
 .register-section-buttons{
@@ -344,6 +345,42 @@ main section article i{
     margin-left: 30px;
     width: 20%;
 }
+
+.checkBox-intereses{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.intereses-label{
+    margin-bottom: 20px;
+}
+
+.intereses-p{
+    color: black;
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.register-p{
+    text-align: left;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.register-section-user{
+    margin-bottom: 30px;
+}
+
+.register-section-birthDate{
+    margin-bottom: 30px;
+}
+
 
 @media (min-width: 361px){
     article{
