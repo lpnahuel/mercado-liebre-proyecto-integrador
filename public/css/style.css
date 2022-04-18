@@ -381,6 +381,10 @@ main section article i{
     margin-bottom: 30px;
 }
 
+.intereses-label{
+    margin-left: 5px;
+}
+
 
 @media (min-width: 361px){
     article{
