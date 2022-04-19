@@ -101,6 +101,7 @@ p.descripciones{
     font-size: 16px;
     color: #666;
     width: 100%;
+    visibility: hidden;
 }
 
 .burger-menu{
@@ -173,6 +174,10 @@ ul i{
     
 }
 
+.fa-solid.fa-credit-card:hover{
+    color: #ec10af;
+}
+
 .fa-solid.fa-gift{
     display: block;
     color: #1259c3;
@@ -184,6 +189,10 @@ ul i{
     text-align: center;
 }
 
+.fa-solid.fa-gift:hover{
+    color: #ec10af;
+}
+
 .fa-solid.fa-user-shield{
     display: block;
     color: #1259c3;
@@ -193,6 +202,10 @@ ul i{
     margin-bottom: 10px;
     margin-top: 50px;
     text-align: center;    
+}
+
+.fa-solid.fa-user-shield:hover{
+    color: #ec10af;
 }
 
 h4.titulo-footer{
@@ -252,6 +265,10 @@ main section article i{
     width: 30px;
 }
 
+main section article i:hover{
+    transform: rotate(270deg);
+}
+
 .section-producto{
     display: flex;
     flex-wrap: wrap;
@@ -269,6 +286,9 @@ main section article i{
     right: 0px;
     text-align: center;
 }*/
+/*FOOTER*/
+
+
 
 /*LOGIN*/
 .login-section{
@@ -282,12 +302,16 @@ main section article i{
     flex-direction: column;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: auto;
+    width: 90%;
 }
 
 .login-section-password{
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+    margin-left: auto;
+    width: 90%;
 }
 
 .login-section-form{
@@ -309,6 +333,13 @@ main section article i{
     color: #FFF;
     height: 30px;
     margin-bottom: 30px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-button:hover{
+    background-color: #0022AA;
 }
 
 /*REGISTER*/
@@ -316,7 +347,10 @@ main section article i{
 .register-section-form{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;  
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .register-section-buttons{
@@ -335,6 +369,10 @@ main section article i{
     width: 20%;
 }
 
+.register-submit-button:hover{
+    background-color: #0022AA;
+}
+
 .register-reset-button{
     border-radius: 5px;
     background-color: #1259c3;
@@ -346,9 +384,14 @@ main section article i{
     width: 20%;
 }
 
+.register-reset-button:hover{
+    background-color: #0022AA;
+}
+
 .checkBox-intereses{
     display: flex;
     flex-direction: column;
+    width: fit-content;
     
 }
 
@@ -385,12 +428,16 @@ main section article i{
     margin-left: 5px;
 }
 
+.main-article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);                
+}
+
+.main-article:hover .descripciones{
+    visibility: visible;
+}
+
 
 @media (min-width: 361px){
-    article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);                
-    }
-
     .burger-menu{
         display: none;
     }
@@ -449,6 +496,11 @@ main section article i{
 
     .top-section-div-p{
         font-size: 24px;
+    }
+
+    .footer-div{
+        display: flex;
+        flex-direction: row;
     }
 
 }
