@@ -13,18 +13,18 @@ app.listen(process.env.PORT || 3030, function(){
 
 app.use(express.static(path.join(__dirname, "/public")));
 
-app.get ("/", (req, res) => {
+app.get("/", (req, res) => {
     res.sendFile(path.join (__dirname, "/views/home.html"))
 });
 
-app.get ("/register", (req, res) => {
+app.get("/register", (req, res) => {
     res.sendFile(path.join (__dirname, "/views/register.html"))
 });
 
-app.get ("/login", (req, res) => {
+app.get("/login", (req, res) => {
     res.sendFile(path.join (__dirname, "/views/login.html"))
 });
 
-app.post ("/", (req, res) => {
+app.post("/", (req, res) => {
     res.sendFile(path.join (__dirname, "/views/home.html"))
 });
