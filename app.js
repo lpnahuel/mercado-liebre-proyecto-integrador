@@ -8,7 +8,7 @@ const path = require("path");
 // });
 
 app.listen(process.env.PORT || 3030, function(){
-    console.log("Servidor corriendo en el puerto 3030")
+    console.log("Servidor corriendo en el puerto" + process.env.PORT)
 });
 
 app.use(express.static(path.join(__dirname, "/public")));
