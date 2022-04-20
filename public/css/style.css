@@ -292,9 +292,19 @@ main section article i:hover{
 
 /*LOGIN*/
 .login-section{
-    width: 60%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    padding-top: 30px;
+}
+
+.login-section-title{
+    color: #666;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    
 }
 
 .login-section-user{
@@ -344,13 +354,30 @@ main section article i:hover{
 
 /*REGISTER*/
 
+.register-section{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);    
+    width: 100%;
+    padding-top: 30px;
+}
+
+.register-section-title{
+    color: #666;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    
+}
+
 .register-section-form{
     display: flex;
     flex-direction: column;
     margin-top: 20px; 
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    padding-top: 20px;
+    width: 90%;
 }
 
 .register-section-buttons{
@@ -476,6 +503,15 @@ main section article i:hover{
     .header-bottom-section{
         display: block;
         margin-bottom: 10px;
+    }
+    .register-section-form{
+        width: 60%;
+    }
+    .register-section{
+        width: 70%;
+    }
+    .login-section{
+        width: 60%;
     }
     
 }
