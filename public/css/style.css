@@ -137,7 +137,11 @@ ul.lista-header-left{
     padding: 0px;
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
+    width: 40%;    
+}
+
+ul.lista-header-left > li{
+    margin-left: 10px;
 }
 
 ul.lista-header-right{
